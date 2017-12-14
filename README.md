@@ -62,7 +62,7 @@ If you don't have a copy of Lemur, you can use the SuperCollider test client cre
 2. Open <code>http://localhost:8081</code> in your browser
 3. Control the synth using OSC messages sent from Lemur or another OSC server
 
-##Remarks
+## Remarks
 
 This project was example of the cool repo of [OSC](https://github.com/colinbdclark/osc.js),
 
