@@ -1,3 +1,17 @@
+# museBlink
+read with your mind not eyes!
+
+# Connection with muse headset
+
+
+muse-io --device-search Muse-855C --osc osc.udp://172.17.9.164:57121
+please replace your muse name to here > Muse-855C
+
+ready to listen run node .
+open the localhost:8081
+
+you can edit fontSize from /web/socket-synth.js line 132!
+
 # UDP -> Web Socket Example
 
 This example illustrates a Node.js server that will relay OSC messages sent via
@@ -47,3 +61,13 @@ If you don't have a copy of Lemur, you can use the SuperCollider test client cre
 1. Run <code>node .</code> in the Terminal
 2. Open <code>http://localhost:8081</code> in your browser
 3. Control the synth using OSC messages sent from Lemur or another OSC server
+
+##Remarks
+
+This project was example of the cool repo of [OSC](https://github.com/colinbdclark/osc.js),
+
+osc.js Examples
+
+This repository contains examples of how to use osc.js in a variety of situations, including in a browser with Web Sockets, on Node.js, and in a Chrome App.
+
+For more information, please see osc.js.
