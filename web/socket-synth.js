@@ -130,8 +130,8 @@ var example = example || {};
           var totalAlpha = value + value2 + value3 + value4 + 4;
 
           var fontSize = totalAlpha * 7;
-          $("#console").text(fontSize);
-          $("#lorem").css("font-size", fontSize+ "px");
+          totalAlpha = totalAlpha.toFixed(1);
+          $("#score").html(totalAlpha);
 
         }
 
