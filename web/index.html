@@ -11,61 +11,15 @@
     <script src="/bower_components/flocking/dist/flocking-all.min.js"></script>
     <script src="/socket-synth.js"></script>
 
-    <!-- Bootstrap core CSS -->
-    <link href="vendor/bootstrap/css/bootstrap.min.css" rel="stylesheet">
-
-    <!-- Custom fonts for this template -->
-    <link href="https://fonts.googleapis.com/css?family=Source+Sans+Pro:200,200i,300,300i,400,400i,600,600i,700,700i,900,900i" rel="stylesheet">
-    <link href="https://fonts.googleapis.com/css?family=Merriweather:300,300i,400,400i,700,700i,900,900i" rel="stylesheet">
-    <link href="vendor/font-awesome/css/font-awesome.min.css" rel="stylesheet">
-
-    <!-- Custom styles for this template -->
-    <link href="css/coming-soon.css" rel="stylesheet">
     <script src="p5.min.js"></script>
     <script src="addons/p5.dom.min.js"></script>
     <script src="addons/p5.sound.min.js"></script>
     <script src="sketch.js"></script>
-    <script>
-      function openUrl(){
-        console.log("openWeb");
-        var url = document.getElementById("url").value;
-        document.getElementById("browser").src = url;
-
-      }
-
-    </script>
   </head>
 
   <body>
-
-    <div class="overlay">
-      <iframe id="browser" style="width:100%; height:100%;" src="https://en.wikipedia.org/wiki/Neurology"></iframe>
-    </div>
-
-    <div class="masthead">
-      <div class="masthead-bg">
-      </div>
-      <div class="container h-100">
-        <div class="row h-100">
-          <div class="col-12 my-auto">
-            <div class="masthead-content text-white py-5 py-md-0">
-              <h1 class="mb-3">Muse Blink!</h1>
-              <h3 class="mb-4" id="score">Muse Blink!</h3>
-              <p class="mb-5">Muse blink is an experimental project enables you to discover yourself when you're reading floating in the thoughts.
-                <strong>Self-realisation</strong>! can be our saviour for improved quality of our learning!</p>
-              <div class="input-group input-group-newsletter">
-                <input id="url" type="email" class="form-control" placeholder="http://wikipedia.org" aria-label="Enter email..." aria-describedby="basic-addon">
-                <div class="input-group-append">
-                  <button class="btn btn-secondary" onclick="openUrl();" type="button">Teleport!</button>
-                </div>
-              </div>
-            </div>
-          </div>
-        </div>
-      </div>
-    </div>
-
-    <div class="social-icons"  id="sketch-holder">
+    <h6 hidden id="score"></h6>
+    <div class="sketch"  id="sketch-holder">
 
     </div>
 
